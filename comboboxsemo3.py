@@ -7,6 +7,7 @@ def showselection(event):
 
 root=tk.Tk()
 
+
 root.geometry('500x400')
 lbl=tk.Label(root, text="Chose your fevorite month")
 combo=ttk.Combobox(root,values=['January','February','March','April'])
