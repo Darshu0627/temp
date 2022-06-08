@@ -17,6 +17,9 @@ def additem(event):
     str.set("")
     tkinter.messagebox.showinfo("Sucess ","Item added")
 
+
+    
+
 root=tk.Tk()
 str=tk.StringVar()
 root.geometry('500x400')
